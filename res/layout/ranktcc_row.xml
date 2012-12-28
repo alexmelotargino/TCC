@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  label da Tela -->
+<LinearLayout
+    android:label="@string/app_name" 
+    android:id="@+id/LinearLayout01"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent">
+        <ImageView
+            android:focusable="false"
+            android:id="@+id/bandeira"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@+drawable/ic_launcher">
+        </ImageView>
+        <TextView
+            android:id="@+id/lblUsuario"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/bandeira"
+            android:layout_width="wrap_content"
+            android:text="Usuario : "
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:focusable="false"
+            android:id="@+id/tvUsuario"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lblUsuario"
+            android:layout_width="wrap_content"
+            android:text="Nome do Usuaario"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:focusable="false"
+            android:id="@+id/lblCapital"
+            android:layout_below="@+id/lblUsuario"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/bandeira"
+            android:layout_width="wrap_content"
+            android:text="Pontuação : "
+            android:textSize="13sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:focusable="false"
+            android:id="@+id/tvCapital"
+            android:layout_below="@+id/lblUsuario"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lblCapital"
+            android:layout_width="wrap_content"
+            android:text="nome da capital"
+            android:textSize="13sp">
+        </TextView>
+    </RelativeLayout>
+</LinearLayout>

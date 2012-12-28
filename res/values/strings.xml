@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rank</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pergunta1">"Com o objetivo de trabalhar com  seus alunos o conceito de volume de sólidos, um professor fez o seguinte experimento: pegou uma caixa de polietileno, na forma   de um cubo com 1 metro de lado,  
+e colocou nela 600 litros de água.   Em seguida, colocou, dentro da caixa   com água, um sólido que 
+ficou completamente submerso.Considerando que, ao colocar o sólido   dentro da caixa, a altura do nível  da água passou a ser 80cm,   qual era o volume do sólido? \n 
+A:0,2m³  B:0,48m³  C:4,8m³  D:20m³ E:48m³"</string>
+    <string name="rank">Rank Respostas</string>
+    <string name="questionario">Questionario</string>
+    <string name="pergunta2">As ruínas do povoado de Canudos, no sertão norte da Bahia,além de significativas para a identidade cultural dessa região, são úteis às ivestigações
+        sobre a Guerra de Canudos e o modo de vida dos antigos revoltosos.Essas ruínas foram reconhecidas como patrimônio cultural material pelo Iphan(Instituto do Patrimônio Histórico e Artístico Nacional) porque reúnem um conjuto de 
+        \n\n A: objetos arqueológicos e paisagísticos. \n B: acervos museológicos e bibliográficos.\n C: núcleos urbanos e etnográficos \n D: práticas e representações de uma sociedade.  \n E: expressões e técnicas de uma sociedade estinta.</string>
+    <string name="pont">Pontuação Atual</string>
+    <string name="pergunta3">Pontuação Atual</string>
+    <string name="enviarpont">Enviar Pontuação</string>
+    <string name="proxi">Proximo</string>
+    <string name="atualizarpontos">Atualizar Pontos</string>
+
+</resources>
